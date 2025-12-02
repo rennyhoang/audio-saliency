@@ -3,6 +3,7 @@ How to use prediction:
 - python -m venv env
 - pip install -r requirements.txt (fix errors as needed)
 - python new-predict.py --model best_model.keras --input [input dir] --output [output dir]
+- configure variables and use overlay.py for overlaying saliency on top of video, nums.py for saving csvs of saliency
 
 new-predict.py takes in a path to a directory containing spherical power maps along with a path to the model and produces corresponding saliency maps
 
